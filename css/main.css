@@ -1,0 +1,322 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0em;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  padding: 1.5em;
+  padding-right: .5em;
+  background-color: #F0FFFF;
+}
+
+.logo {
+  width: 12%;
+  float: left;
+}
+
+h1 {
+  font-size: 1em;
+  font-family: 'Poiret One', cursive;
+  display: inline;
+  text-align: center;
+  padding: .5em;
+}
+
+.buy-button {
+  padding: .5em;
+  margin-right: 0em;
+  margin-top: 0em;
+  font-size: 1em;
+  border-radius: 10px;
+  background-color: #EBEBFF;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  float: right;
+  display: inline-block;
+  width: 20%;
+}
+
+nav {
+  padding-bottom: .5em;
+  margin: 0em;
+  background-color: #F0FFFF;
+  clear: both;
+}
+ol li {
+  display: inline;
+  width: 25%;
+  margin: 0em;
+  padding: 0.5em;
+  font-family: 'Poiret One', cursive;
+  font-size: .9em
+}
+
+ol {
+  margin: 0em;
+  padding: 0em;
+  overflow: hidden;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #888;
+}
+
+.banner {
+  background-color: #FDF5E6;
+}
+
+.bannerimage {
+  position: relative;
+  opacity: 0.5;
+}
+
+.bannerhead {
+  top: 20%;
+  font-size: 1.2em;
+  font-family: 'Poiret One', cursive;
+  color: black;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0,0,0,.5);
+  position: absolute;
+  width: 100%;
+}
+.bannertext {
+  position: absolute;
+  top: 25%;
+  margin: 0.5em;
+  font-family: 'Lora', serif;
+  font-size: .90em;
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px 5px rgba(0,0,0,.5);
+}
+
+.wonders {
+  padding: 1em;
+  padding-top: .5em;
+  background-color: #FDF5E6;
+}
+
+h2 {
+  margin: 0em;
+  padding: 0.5em;
+  padding-top: .5em;
+  font-family: 'Poiret One', cursive;
+  font-size: 1.4em;
+  text-align: center;
+  color: #9400D3;
+}
+
+h3 {
+  font-family: 'Poiret One', cursive;
+  font-size: 1em;
+  margin: .5em;
+  text-align: left;
+}
+
+dl {
+  overflow: hidden;
+}
+
+dd {
+  margin-left: 0;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+dt {
+  font-size: 0.8em;
+  text-align: center;
+}
+.box-1 {
+  float: left;
+  width: 33.33%;
+  font-family: 'Lora', serif;
+  padding-bottom: 1em;
+}
+
+.box-2 {
+  float: left;
+  width: 33.33%;
+  font-family: 'Lora', serif;
+  padding-bottom: 1em;
+}
+
+.box-3 {
+  float: right;
+  width: 33.33%;
+  font-family: 'Lora', serif;
+  padding-bottom: 1em;
+}
+
+.button-more {
+  padding: .5em;
+  margin-bottom: 1em;
+  font-size: 1em;
+  border-radius: 10px;
+  background-color: #EBEBFF;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  display: block;
+}
+
+.buy-tickets {
+  background-color: #F0FFFF;
+  overflow: hidden;
+}
+.button-prices-one {
+  padding: .5em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  font-size: 1em;
+  border-radius: 10px;
+  background-color: #EBEBFF;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  display: inline-block;
+  width: 36%;
+}
+
+.button-prices-two {
+  padding: .5em;
+  margin-bottom: 1em;
+  margin-right: 2em;
+  font-size: 1em;
+  border-radius: 10px;
+  background-color: #EBEBFF;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  float: right;
+  display: inline-block;
+  width: 36%;
+}
+
+.tickets {
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 0.9em;
+}
+
+.atlantis {
+  position: relative;
+  background-color: #FDF5E6;
+}
+.atlantis-image {
+  opacity: 0.4;
+  margin-bottom: 0em;
+}
+
+.at-head {
+  position: absolute;
+  top: 30%;
+  font-size: 1.5em;
+  font-family: 'Poiret One', cursive;
+  color: black;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0,0,0,.5);
+  width: 100%;
+}
+
+.at-text {
+  position: absolute;
+  top: 60%;
+  font-family: 'Lora', serif;
+  font-size: .90em;
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px 5px rgba(0,0,0,.5);
+  width: 100%;
+}
+
+.times-button {
+  position: absolute;
+  top: 80%;
+  padding: .5em;
+  margin-bottom: 1em;
+  margin-left: 25%;
+  font-size: 1em;
+  border-radius: 10px;
+  background-color: #EBEBFF;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  display: block;
+  width: 50%;
+}
+
+.this-week {
+  background-color: #F0FFFF;
+  overflow: hidden;
+  padding: 1em 1em;
+}
+
+.dates {
+  text-align: left;
+  overflow: hidden;
+  padding: .5em;
+}
+
+.dates-des {
+  padding: 0em;
+  width: 100%;
+  font-family: 'Lora', serif;
+  font-size: 0.75em;
+}
+
+footer p {
+  padding: 1em;
+}
+footer nav {
+  background-color: #FDF5E6;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 1em;
+}
+
+footer {
+  padding: 1em;
+  background-color: #FDF5E6;
+  font-family: 'Lora', serif;
+  font-size: 0.5em;
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 20em) {
+  h1 {
+    font-size: 1em;
+  }
+
+  ol li {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+@media only screen and (min-width: 27em) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  ol li {
+    display: inline;
+    width: 25%;
+    padding: 0.6em;
+}
