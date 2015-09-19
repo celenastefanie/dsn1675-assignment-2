@@ -97,6 +97,7 @@ a:hover {
   position: absolute;
   width: 100%;
 }
+
 .bannertext {
   position: absolute;
   top: 25%;
@@ -277,6 +278,7 @@ dt {
   width: 100%;
   font-family: 'Lora', serif;
   font-size: 0.75em;
+  display:inline-block;
 }
 
 footer p {
@@ -304,19 +306,57 @@ footer {
     font-size: 1em;
   }
 
-  ol li {
+  nav ol li {
     display: inline-block;
     width: 50%;
     float: left;
-}
+  }
+
+  .bannerhead {
+    top: 22%;
+  }
+
+  .bannertext {
+    position: absolute;
+    top: 31%;
+  }
 
 @media only screen and (min-width: 27em) {
   h1 {
     font-size: 1.5em;
   }
 
-  ol li {
+  nav ol li {
     display: inline;
     width: 25%;
     padding: 0.6em;
-}
+  }
+
+  .bannerhead {
+    top: 23%;
+    font-size: 1.3em;
+  }
+
+  .bannertext {
+    position: absolute;
+    top: 31%;
+    font-size: 1em;
+  }
+
+@media only screen and (min-width: 35em) {
+
+  nav ol li {
+    font-size: 1em;
+  }
+
+  .bannerhead {
+    top: 36%;
+    font-size: 1.5em;
+  }
+
+  .bannertext {
+    position: absolute;
+    top: 43%;
+    font-size: 1em;
+    padding: 0 3em 0 3em;
+  }
