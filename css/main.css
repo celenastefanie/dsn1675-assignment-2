@@ -321,7 +321,7 @@ footer {
     top: 31%;
   }
 
-@media only screen and (min-width: 27em) {
+@media only screen and (min-width: 25em) {
   h1 {
     font-size: 1.5em;
   }
@@ -343,7 +343,7 @@ footer {
     font-size: 1em;
   }
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 38em) {
 
   nav ol li {
     font-size: 1em;
@@ -359,6 +359,26 @@ footer {
     top: 43%;
     font-size: 1em;
     padding: 0 3em 0 3em;
+  }
+
+  .col-1 {
+    width: 48%;
+    float: left;
+    padding-bottom: .5em;
+  }
+
+  .col-2 {
+    width: 48%;
+    float: right;
+    padding-bottom: .5em;
+  }
+
+  .col-3 {
+    padding: 0 3em 0 3em;
+  }
+
+  .wonders {
+    overflow: hidden;
   }
 
   .this-week ol li {
@@ -377,5 +397,40 @@ footer {
   .times-button {
     top: 85%;
   }
+}
 
+@media only screen and (min-width: 44em) {
+  h1 {
+    font-size: 2em;
+  }
+
+  nav ol li {
+    font-size: 1.3em;
+  }
+
+  .logo {
+    width: 8%;
+    float: left;
+  }
+
+  .wonders {
+    overflow: hidden;
+
+  }
+  .col-1 {
+    width: 48%;
+    float: left;
+    padding-bottom: .5em;
+  }
+
+  .col-2 {
+    width: 48%;
+    float: right;
+    padding-bottom: .5em;
+  }
+
+  .col-3 {
+    padding: 0 3em 0 3em;
+
+  }
 }
