@@ -397,11 +397,15 @@ footer {
   .times-button {
     top: 85%;
   }
+
+  footer {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 44em) {
   h1 {
-    font-size: 2em;
+    font-size: 1.75em;
   }
 
   nav ol li {
@@ -432,5 +436,51 @@ footer {
   .col-3 {
     padding: 0 3em 0 3em;
 
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .bannerhead {
+    top: 57%;
+    font-size: 1.5em;
+  }
+
+  .bannertext {
+    top: 65%;
+    font-size: 1em;
+    text-align: center;
+    padding: 0 30% 0 30%;
+  }
+
+  .button-more {
+    width: 70%;
+    margin-left: 15%;
+}
+
+  .button-prices-one {
+    width: 20%;
+    margin-left: 25%;
+  }
+
+  .button-prices-two {
+    width: 20%;
+    margin-right: 25%;
+  }
+
+  .tickets {
+    margin: 1em 30% 1em 30%;
+  }
+
+  .at-head {
+    top: 65%;
+  }
+
+  .at-text {
+    top: 75%;
+  }
+
+  .times-button {
+    top: 85%;
   }
 }
