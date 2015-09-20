@@ -360,3 +360,22 @@ footer {
     font-size: 1em;
     padding: 0 3em 0 3em;
   }
+
+  .this-week ol li {
+   display: inline;
+   float: left;
+ }
+
+  .at-head {
+    top: 50%;
+  }
+
+  .at-text {
+    top: 67%;
+  }
+
+  .times-button {
+    top: 85%;
+  }
+
+}
