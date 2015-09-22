@@ -314,11 +314,13 @@ footer {
 
   .bannerhead {
     top: 22%;
+    font-size: 100%;
   }
 
   .bannertext {
     position: absolute;
-    top: 31%;
+    top: 28%;
+    font-size: 75%;
   }
 
 @media only screen and (min-width: 25em) {
@@ -343,6 +345,11 @@ footer {
     font-size: 1em;
   }
 
+  .seven-images {
+    width: 80%;
+    margin: 0 10% 0 10%;
+  }
+
 @media only screen and (min-width: 38em) {
 
   nav ol li {
@@ -350,15 +357,20 @@ footer {
   }
 
   .bannerhead {
-    top: 36%;
-    font-size: 1.5em;
+    top: 33%;
+    font-size: 150%;
   }
 
   .bannertext {
     position: absolute;
-    top: 43%;
+    top: 40%;
     font-size: 1em;
     padding: 0 15% 0 15%;
+  }
+
+  .seven-images {
+    width: 100%;
+    margin: 0;
   }
 
   .col-1 {
@@ -381,9 +393,19 @@ footer {
     overflow: hidden;
   }
 
-  .this-week ol li {
-   display: inline;
-   float: left;
+  .tickets {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+ .button-prices-one {
+   width: 20%;
+   margin-left: 25%;
+ }
+
+ .button-prices-two {
+   width: 20%;
+   margin-right: 25%;
  }
 
   .at-head {
@@ -435,28 +457,64 @@ footer {
 
   .col-3 {
     padding: 0 3em 0 3em;
-
   }
+
+  .tickets {
+  }
+  .button-prices-one {
+    width: 20%;
+    margin-left: 25%;
+  }
+
+  .button-prices-two {
+    width: 20%;
+    margin-right: 25%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   .bannerhead {
-    top: 57%;
+    top: 54%;
     font-size: 1.5em;
   }
 
   .bannertext {
-    top: 65%;
+    top: 60%;
     font-size: 1em;
     text-align: center;
     padding: 0 30% 0 30%;
   }
 
+  h2 {
+    margin-bottom: 3%;
+    font-size: 150%;
+ }
+  .col-1 {
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+    padding-bottom: .5em;
+  }
+
+  .col-2 {
+    width: 40%;
+    float: right;
+    margin-right: 7%;
+    padding-bottom: .5em;
+  }
+
+  .col-3 {
+    margin: 0 20% 0 25%;
+    width: 50%;
+  }
+
+
   .button-more {
     width: 70%;
     margin-left: 15%;
-}
+  }
 
   .button-prices-one {
     width: 20%;
@@ -482,5 +540,9 @@ footer {
 
   .times-button {
     top: 85%;
+  }
+
+  .dates {
+    float: left;
   }
 }
