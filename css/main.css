@@ -471,6 +471,21 @@ footer {
     margin-right: 25%;
   }
 
+  .this-week {
+    padding: 2% 10%;
+  }
+
+  .dates {
+    float: left;
+    width: 20%;
+    display: inline;
+    overflow: hidden;
+  }
+
+  ol ul {
+    padding: 0;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -527,7 +542,7 @@ footer {
   }
 
   .tickets {
-    margin: 1em 30% 1em 30%;
+    margin: 1em 20% 1em;
   }
 
   .at-head {
@@ -542,7 +557,17 @@ footer {
     top: 85%;
   }
 
+  .this-week {
+    padding: 2% 10%;
+  }
+
   .dates {
     float: left;
+    width: 20%;
+    display: inline;
+  }
+
+  ol ul {
+    padding: 0;
   }
 }
