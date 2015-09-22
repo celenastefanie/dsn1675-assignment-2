@@ -273,6 +273,10 @@ dt {
   padding: .5em;
 }
 
+ol ul {
+  padding-left: 0.5em;
+}
+
 .dates-des {
   padding: 0em;
   width: 100%;
